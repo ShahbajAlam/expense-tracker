@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    background-color: rgb(49, 49, 49);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    width: 95%;
+}
+
+.modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    border-radius: 15px;
+    width: 50%;
+    min-height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 2rem;
+    z-index: 5;
+}
+
+.backdrop {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+}
+
+.btn__group--modal {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.btn__group--modal button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition-duration: 500ms;
+    color: white;
+}
+
+.delete {
+    background-color: rgb(9, 97, 9);
+}
+
+.cancel {
+    background-color: rgb(212, 59, 59);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    #root {
+        width: 85%;
+    }
+}

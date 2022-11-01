@@ -32,10 +32,10 @@
 
 @media (min-width: 768px) {
     .chartbar__outter {
-        width: 1rem;
+        width: 1.2rem;
     }
     .label {
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin: 0.5rem 0 0;
     }
 }

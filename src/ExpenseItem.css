@@ -11,7 +11,7 @@
 
 .calendar {
     display: flex;
-    min-width: 4.5rem;
+    min-width: 6rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -22,18 +22,18 @@
 
 .calendar h1,
 .calendar h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 0;
     text-align: center;
 }
 
 .calendar h3 {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
 }
 
 .list__title,
 .list__amount {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 0;
     text-align: center;
 }
@@ -44,20 +44,20 @@
 
 @media (min-width: 768px) {
     .list {
-        padding: 1rem 2rem;
+        padding: 1rem;
     }
     .list__title,
     .list__amount {
-        font-size: 1.75rem;
+        font-size: 2rem;
     }
     .calendar {
-        min-width: 7rem;
+        min-width: 10rem;
     }
     .calendar h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .calendar h3 {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 }
 

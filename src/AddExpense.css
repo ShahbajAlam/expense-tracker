@@ -23,6 +23,7 @@
 
 .addexpense__label {
     width: 40%;
+    font-size: 1.2rem;
     text-transform: uppercase;
 }
 
@@ -45,12 +46,11 @@
 .cancel__btn,
 .addnew__btn {
     font-family: "Montserrat", sans-serif;
-    width: 50%;
     margin: 0 auto;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 600;
-    padding: 5px 0;
+    padding: 5px 12px;
     cursor: pointer;
     border-radius: 5px;
     border: none;
@@ -78,16 +78,37 @@
 }
 
 @media (min-width: 768px) {
-    .addnew__btn {
-        width: 60%;
-    }
     .addexpense__form {
         padding: 1.5rem 2rem;
     }
     .addexpense__btn,
     .cancel__btn,
     .addnew__btn {
-        font-size: 1.3rem;
+        font-size: 1.75rem;
+        padding: 10px 20px;
+    }
+    .btn__group {
+        margin-top: 1rem;
+    }
+    .addexpense__input,
+    .addexpense__label {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .addexpense__btn,
+    .cancel__btn,
+    .addnew__btn {
+        width: 45%;
+        font-size: 1.5rem;
         padding: 5px 10px;
+    }
+    .btn__group {
+        margin-top: 1rem;
+    }
+    .addexpense__input,
+    .addexpense__label {
+        font-size: 1.3rem;
     }
 }

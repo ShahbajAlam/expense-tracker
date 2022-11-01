@@ -1,10 +1,10 @@
 label {
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 select {
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 5px;
     border-radius: 5px;
     outline: none;
@@ -15,7 +15,7 @@ select {
 .list__filter {
     background-color: rgb(49, 49, 49);
     border-radius: 15px;
-    padding: 1rem 0.5rem;
+    padding: 1rem;
     margin: 0.5rem auto;
     color: white;
     display: flex;
@@ -26,6 +26,6 @@ select {
 @media (min-width: 768px) {
     label,
     select {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 }

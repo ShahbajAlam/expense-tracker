@@ -14,7 +14,7 @@ const Modal = (props) => {
             <h2>Do you want to delete this entry?</h2>
             <div className={styles.btn__group}>
                 <button className={styles.ok__btn} onClick={okBtnHandler}>
-                    OK
+                    YES
                 </button>
                 <button
                     className={styles.cancel__btn}
